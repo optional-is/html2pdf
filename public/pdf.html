@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML to PDF Creator</title>
+	<style>
+	html,body { margin: 0 auto; padding: 0; color: #16161d; background-color: #ededed; font-family: Helvetica,Arial,sanserif; }
+	form { padding: 2em;}
+	textarea { background-color: #fff; }
+	</style>
+  </head>
+  <body>
+    <form action="html-to-pdf" method="post">
+    <h1>HTML to PDF Creator</h1>
+    <p>Paste in some HTML and press create. This will return a PDF from the HTML. <a href="https://github.com/optional-is/html2pdf">You can read more information about how to setup your own instance on our github page</a>.</p>
+    <div><textarea name="html" style="width: 100%" rows="20"><html>
+	<head>
+		<title>Name Here</title>
+		<style>
+		h2 { page-break-before: always;}
+		</style>
+	</head>
+	<body>
+		<h1>Welcome the Entire Land</h1>
+		<h2>TOC</h2>
+		<h2>Abstract</h2>
+		<h2>Index</h2>
+	</body>
+</html>
+	</textarea></div>
+    <div><input type="submit" value="create"/></div>
+    </form>
+  </body>
+</html>
