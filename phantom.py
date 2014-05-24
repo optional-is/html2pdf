@@ -28,8 +28,6 @@ def html_to_pdf(html):
 	html_tmp = tempfile.NamedTemporaryFile(mode='w+b', dir="phantom-scripts", suffix='.html')
 	pdf_tmp	 = tempfile.NamedTemporaryFile(mode='r+b', suffix='.pdf')
 		
-	print pdf_tmp.name
-		
 	# edit rasterize_pdf to change size/header+footer settings
 	# maybe expose some options here if we need them
 	phantom_cmd = [ 'phantomjs',
@@ -41,7 +39,7 @@ def html_to_pdf(html):
 		html_tmp.write(html.encode('utf8'))
 		html_tmp.flush()
 
-		subprocess.call(phantom_cmd)
+		print subprocess.call(phantom_cmd)
 
 		return pdf_tmp.read()
 
