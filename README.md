@@ -12,7 +12,7 @@ virtualenv --distribute venv
 
 This will create a directory for all your virtual files. Next activate the virtual enviornment by typing:
 
-source venv/bin/actvate
+source venv/bin/activate
 
 Once you are activated, you need to install all the dependencies by typing:
 
