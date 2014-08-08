@@ -30,4 +30,5 @@ If you want to learn more about deploying this on heroku, you can read:
 
 http://optional.is/required/2014/06/12/pdf-creation-from-html-service/
 
-of you can [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) to heroku
+You can also automatically deploy to Heroku by clicking the button
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
