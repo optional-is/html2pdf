@@ -29,3 +29,5 @@ This will run the flask server on http://0.0.0.0:5000 by default.
 If you want to learn more about deploying this on heroku, you can read:
 
 http://optional.is/required/2014/06/12/pdf-creation-from-html-service/
+
+of you can [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) to heroku
