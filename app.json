@@ -2,6 +2,5 @@
   "name": "HTML2PDF generator",
   "description": "This services takes HTML and converts it into a PDF file",
   "repository": "https://github.com/optional-is/html2pdf",
-  "logo": "",
   "keywords": ["python", "flask", "mandrill","phantomjs"]
 }
