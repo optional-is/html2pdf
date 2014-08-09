@@ -2,5 +2,11 @@
   "name": "HTML2PDF generator",
   "description": "This services takes HTML and converts it into a PDF file",
   "repository": "https://github.com/optional-is/html2pdf",
-  "keywords": ["python", "flask", "mandrill","phantomjs"]
+  "keywords": ["python", "flask", "mandrill", "phantomjs"],
+  "website": "http://optional.is/required/2014/06/12/pdf-creation-from-html-service/",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/rsussland/heroku-buildpack-python-phantomjs",
+    "LD_LIBRARY_PATH": "/usr/local/lib:/usr/lib:/lib:/app/vendor/phantomjs/lib",
+	"PATH":            "/usr/local/bin:/usr/bin:/bin:/app/vendor/phantomjs/bi"
+  }
 }
