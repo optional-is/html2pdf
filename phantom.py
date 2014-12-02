@@ -32,7 +32,6 @@ def html_to_pdf(html):
 	# maybe expose some options here if we need them
 	phantom_cmd = [ 'phantomjs',
 					'phantom-scripts/rasterize_pdf.js',
-					'--output-encoding=utf8',
 					'%s' % html_tmp.name,
 					'%s' % pdf_tmp.name]
 
