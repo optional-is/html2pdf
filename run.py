@@ -2,7 +2,6 @@
 
 import logging
 import flask
-import json
 import flask_config
 import phantom
 
