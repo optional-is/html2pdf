@@ -11,7 +11,7 @@ if (phantom.args.length < 2 || phantom.args.length > 3) {
 		page.paperSize = {
 			format: 'A4',
 			orientation: 'portrait',
-			border: '0cm'
+			border: '1.5cm'
 		};
 
     page.onConsoleMessage = function(msg) { console.log(msg); };
