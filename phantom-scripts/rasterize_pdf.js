@@ -1,13 +1,13 @@
+var system = require('system');
 var page = new WebPage(),
     address, output, size;
  
-if (phantom.args.length < 2 || phantom.args.length > 3) {
+if (system.args.length < 2 || system.args.length > 3) {
     console.log('Usage: rasterize.js URL filename');
     phantom.exit();
 } else {
-    address = phantom.args[0];
-    output = phantom.args[1];
-		
+    address = system.args[1];
+    output = system.args[2];
 		page.paperSize = {
 			format: 'A4',
 			orientation: 'portrait',

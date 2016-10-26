@@ -5,7 +5,7 @@
   "keywords": ["python", "flask", "mandrill", "phantomjs"],
   "website": "http://optional.is/required/2014/06/12/pdf-creation-from-html-service/",
   "env": {
-    "BUILDPACK_URL":   "https://github.com/stomita/heroku-buildpack-phantomjs.git",
+    "BUILDPACK_URL":   "https://github.com/srbartlett/heroku-buildpack-phantomjs-2.0",
     "LD_LIBRARY_PATH": "/usr/local/lib:/usr/lib:/lib:/app/vendor/phantomjs/lib",
     "PATH":            "/usr/local/bin:/usr/bin:/bin:/app/vendor/phantomjs/bi"
   }
