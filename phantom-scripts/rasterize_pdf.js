@@ -8,11 +8,12 @@ if (system.args.length < 2 || system.args.length > 3) {
 } else {
     address = system.args[1];
     output = system.args[2];
-		page.paperSize = {
-			format: 'A4',
-			orientation: 'portrait',
-			border: '1.5cm'
-		};
+
+	page.paperSize = {
+		format: 'A4',
+		orientation: 'portrait',
+		border: '1.5cm'
+	};
 
     page.onConsoleMessage = function(msg) { console.log(msg); };
     page.settings.userAgent = 'Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7';
