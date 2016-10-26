@@ -6,7 +6,9 @@
   "website": "http://optional.is/required/2014/06/12/pdf-creation-from-html-service/",
   "buildpacks": [
     {
-      "url": "https://github.com/stomita/heroku-buildpack-phantomjs",
+      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+    },
+    {
       "url": "https://github.com/heroku/heroku-buildpack-python"
     }
   ]
